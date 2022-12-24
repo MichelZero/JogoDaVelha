@@ -10,10 +10,10 @@ velha = [[' ' for i in range(3)] for j in range(3)]
 
 # função para imprimir o jogo da velha
 def imprime_velha():
-  print('------------')
+  print('-------')
   for i in range(3):
-    print(f'|__{velha[i][0]}|__{velha[i][1]}|__{velha[i][2]}|')
-  print('------------')
+    print(f'|{velha[i][0]} |{velha[i][1]} |{velha[i][2]}')
+  print('-------')
   
 #####################################################################################
 # testando o código
