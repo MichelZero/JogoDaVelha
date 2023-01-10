@@ -51,27 +51,35 @@ def play():
         # verificando se o jogador ganhou
         if count >= 5:
             if board[1] == board[2] == board[3] != " ": # primeira linha
+                tabuleiro()
                 print(turn + " Ganhou!\n")
                 return
             elif board[4] == board[5] == board[6] != " ": # segunda linha
+                tabuleiro()
                 print(turn + " Ganhou!\n")
                 return
             elif board[7] == board[8] == board[9] != " ": # terceira linha
+                tabuleiro()
                 print(turn + " Ganhou!\n")
                 return
             elif board[1] == board[4] == board[7] != " ": # primeira coluna
+                tabuleiro()
                 print(turn + " Ganhou!\n")
                 return
             elif board[2] == board[5] == board[8] != " ": # segunda coluna
+                tabuleiro()
                 print(turn + " Ganhou!\n")
                 return
             elif board[3] == board[6] == board[9] != " ": # terceira coluna
+                tabuleiro()
                 print(turn + " Ganhou!\n")
                 return
             elif board[1] == board[5] == board[9] != " ": # diagonal
+                tabuleiro()
                 print(turn + " Ganhou!\n")
                 return
             elif board[3] == board[5] == board[7] != " ": # diagonal
+                tabuleiro()
                 print(turn + " Ganhou!\n")
                 return
 
